@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/daseul22/blog/issues"
   },
-  "homepage": "https://github.com/daseul22/blog#readme"
+  "homepage": "https://daseul22.github.io",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
